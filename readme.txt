@@ -10,6 +10,8 @@ Highly customizable counter widget. Allows HTML in title and body. Can count up 
 
 == Description ==
 
+Highly customizable counter widget. Allows HTML in title and body. Can count up and down. Supports multiple instances.
+
 The options in the widget are:
 
 * *Title* is the widget's title. It can contain HTML; its value is simply embedded into the resulting HTML page.
