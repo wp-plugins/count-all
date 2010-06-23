@@ -1,7 +1,7 @@
 === Count All ===
-Contributors: 
+Contributors: horvath.agoston
 Donate link: 
-Tags: counter baby count age
+Tags: counter, baby, count, age, sidebar, widget
 Requires at least: 2.8
 Tested up to: 3.0
 Stable tag: 0.1
@@ -30,6 +30,10 @@ The plugin consists of a single .php file, so it's very easy:
 1. Upload `count_all.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Start using it on the 'Widgets' submenu of 'Appearance'
+
+== Upgrade Notice ==
+
+None yet.
 
 == Requirements ==
 
