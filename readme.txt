@@ -33,13 +33,11 @@ The plugin consists of a single .php file, so it's very easy:
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Start using it on the 'Widgets' submenu of 'Appearance'
 
+The plugin *requires* PHP 5.3+ (for the DateInterval class). For the WordPress widget support, it also requires WordPress 2.8+.
+
 == Upgrade Notice ==
 
 None yet.
-
-== Requirements ==
-
-The plugin *requires* PHP 5.3+ (for the DateInterval class). For the WordPress widget support, it also requires WordPress 2.8+.
 
 == Frequently Asked Questions ==
 
