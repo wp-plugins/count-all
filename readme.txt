@@ -12,6 +12,8 @@ Highly customizable counter widget. Allows HTML in title and body. Can count up 
 
 Highly customizable counter widget. Allows HTML in title and body. Can count up and down. Supports multiple instances.
 
+Originally developed as a baby age counter, but can be used for anything you want.
+
 The options in the widget are:
 
 * *Title* is the widget's title. It can contain HTML; its value is simply embedded into the resulting HTML page.
