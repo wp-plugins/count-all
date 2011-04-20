@@ -3,7 +3,7 @@ Contributors: horvath.agoston
 Donate link: 
 Tags: counter, baby, count, age, sidebar, widget
 Requires at least: 2.8
-Tested up to: 3.0
+Tested up to: 3.1.1
 Stable tag: 0.2
 
 Highly customizable counter widget. Allows HTML in title and body. Can count up and down. Supports multiple instances.
@@ -27,6 +27,8 @@ be used for counting down (for dates in the future), or counting up (for dates i
 
 You can have multiple instances of this widget, of course.
 
+The plugin *requires* PHP 5.3+ (for the DateInterval class).
+
 == Installation ==
 
 The plugin consists of a single .php file, so it's very easy:
@@ -39,11 +41,11 @@ The plugin *requires* PHP 5.3+ (for the DateInterval class). For the WordPress w
 
 == Upgrade Notice ==
 
-None yet.
+The plugin *requires* PHP 5.3+ (for the DateInterval class).
 
 == Frequently Asked Questions ==
 
-None yet.
+The plugin *requires* PHP 5.3+ (for the DateInterval class).
 
 == Screenshots ==
 
