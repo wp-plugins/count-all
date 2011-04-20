@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Count All
- * Version: 0.1
+ * Version: 0.2
  * Plugin URI: http://techieblurbs.blogspot.com
  * Description: Originally developed as a baby age counter. Can be used for anything else. Highly configurable, allows multiple instances.
  * Author: Agoston Horvath
@@ -60,7 +60,7 @@ class CountAllWidget extends WP_Widget
       $content = $datediff->format($content);
 
       # Make the Hello World Example widget
-      echo '<div style="text-align:center;padding:10px;">' . $content . '</div>';
+      echo $content;
 
       # After the widget
       echo $after_widget;

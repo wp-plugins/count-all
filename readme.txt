@@ -4,7 +4,7 @@ Donate link:
 Tags: counter, baby, count, age, sidebar, widget
 Requires at least: 2.8
 Tested up to: 3.0
-Stable tag: 0.1
+Stable tag: 0.2
 
 Highly customizable counter widget. Allows HTML in title and body. Can count up and down. Supports multiple instances.
 
@@ -51,6 +51,9 @@ None yet.
 2. This is how it looks in browser
 
 == Changelog ==
+
+= 0.2 =
+* Removed 'div' tag around content, allowing for more flexibility.
 
 = 0.1 =
 * Initial release
