@@ -7,8 +7,7 @@ Tested up to: 3.3.1
 Stable tag: 0.2
 
 Very simple, highly customizable counter widget for showing difference in
-days from a specified date and time.  Allows HTML in title and body.  Can
-count up and down.  Supports multiple instances.
+days from a specified date and time.
 
 == Description ==
 
@@ -16,7 +15,8 @@ Very simple, highly customizable counter widget for showing difference in
 days from a specified date and time.  Allows HTML in title and body.  Can
 count up and down.  Supports multiple instances.
 
-Originally developed as a baby age counter, but can be used for anything you want.
+Originally developed as a baby age counter, but can be used for any counting
+job.
 
 The options in the widget are:
 
