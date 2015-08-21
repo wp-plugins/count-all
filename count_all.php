@@ -1,11 +1,11 @@
 <?php
 /*
  * Plugin Name: Count All
- * Version: 0.2
- * Plugin URI: http://techieblurbs.blogspot.com
+ * Version: 0.3
+ * Plugin URI: http://omgjava.blogspot.com
  * Description: Originally developed as a baby age counter. Can be used for anything else. Highly configurable, allows multiple instances.
  * Author: Agoston Horvath
- * Author URI: http://homesweet.homelinux.org
+ * Author URI: http://omgjava.wordpress.com
  */
 
 /*
@@ -25,11 +25,11 @@ class CountAllWidget extends WP_Widget
   * Declares the HelloWorldWidget class.
   *
   */
-    function CountAllWidget(){
+    function __construct() {
       $widget_ops = array('classname' => 'widget_count_all', 'description' => __( "Count All Widget") );
       /*$control_ops = array('width' => 300, 'height' => 300);*/
       $control_ops = array();
-      $this->WP_Widget('CountAllWidget', __('Count All Widget'), $widget_ops, $control_ops);
+      parent::__construct('CountAllWidget', __('Count All Widget'), $widget_ops, $control_ops);
     }
 
   /**
@@ -111,7 +111,7 @@ class CountAllWidget extends WP_Widget
   * Calls 'widgets_init' action after the Hello World widget has been registered.
   */
   function CountAllInit() {
-  register_widget('CountAllWidget');
+    register_widget('CountAllWidget');
   }
   add_action('widgets_init', 'CountAllInit');
 ?>

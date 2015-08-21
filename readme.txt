@@ -3,8 +3,8 @@ Contributors: horvath.agoston
 Donate link: 
 Tags: counter, baby, count, age, sidebar, widget
 Requires at least: 2.8
-Tested up to: 4.2
-Stable tag: 0.2
+Tested up to: 4.3
+Stable tag: 0.3
 
 Very simple, highly customizable counter widget for showing difference in
 days from a specified date and time.
@@ -62,6 +62,9 @@ The plugin *requires* PHP 5.3+ (for the DateInterval class).
 2. This is how it looks in browser
 
 == Changelog ==
+
+= 0.3 =
+* Updated to PHP7
 
 = 0.2 =
 * Removed 'div' tag around content, allowing for more flexibility.
